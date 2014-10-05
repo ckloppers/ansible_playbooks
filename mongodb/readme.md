@@ -11,6 +11,7 @@
 
 
 ## check your ansible inventory, you can use the included file
+    inventory.ini
 
 ## Test ansible with this:
     ansible-playbook deploy_mongo.yml -i inventory.ini --check
