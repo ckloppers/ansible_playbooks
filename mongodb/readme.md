@@ -16,4 +16,6 @@
 ## Test ansible with this:
     ansible-playbook deploy_mongo.yml -i inventory.ini --check
 
+## install mongodb with this command if the above --check executed without errors
+    ansible-playbook deploy_mongo.yml -i inventory.ini 
 
